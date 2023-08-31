@@ -1,0 +1,6 @@
+POST http://localhost:3333/api/auth/sign-up
+content-type: application/json
+{
+  "name": "Kwaku",
+  "email": "kmensah@email.com"
+}

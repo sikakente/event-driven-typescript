@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@mint/shared": ["libs/shared/src/index.ts"],
-      "@mint/shared/dto": ["libs/shared/src/lib/dto/index.ts"]
+      "@mint/shared/dto": ["libs/shared/src/lib/dto/index.ts"],
+      "@mint/shared/entities": ["libs/shared/src/lib/entities/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

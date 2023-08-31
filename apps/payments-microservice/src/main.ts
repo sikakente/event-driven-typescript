@@ -19,15 +19,13 @@ async function bootstrap() {
           brokers: ['localhost:29092'],
         },
         consumer: {
-          groupId: 'auth-consumer',
+          groupId: 'payment-consumer',
         },
       },
     }
   );
   await app.listen();
-  Logger.log(
-    `🚀 Auth Microservice Application is running.`
-  );
+  Logger.log(`🚀 Payments Microservice is running...`);
 }
 
 bootstrap();

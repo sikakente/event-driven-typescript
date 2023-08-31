@@ -1,0 +1,6 @@
+POST http://localhost:3333/api/payments/pay
+content-type: application/json
+{
+  "userId": 2,
+  "amount": 10000
+}

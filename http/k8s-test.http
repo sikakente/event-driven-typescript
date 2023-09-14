@@ -1,0 +1,13 @@
+POST http://127.0.0.1:51888/api/auth/sign-up
+content-type: application/json
+{
+  "name": "Kwaku",
+  "email": "kmensah@email.com"
+}
+
+POST http://127.0.0.1:51888/api/payments/pay
+content-type: application/json
+{
+  "userId": 1,
+  "amount": 10000
+}
